@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "cer11_backend": {
+      "candid": "src/cer11_backend/cer11_backend.did",
+      "package": "cer11_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
